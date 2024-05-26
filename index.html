@@ -1,0 +1,358 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&amp;display=swap" rel="stylesheet">
+
+    <!-- Robots meta tag to discourage search indexing -->
+    <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+    
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a class="cs-logo">
+                <img src="images/logo.png" alt="logo" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="index.html" class="cs-li-link cs-text cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-text">
+                                Motel Room
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-text">
+                                What's Nearby
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-text">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="https://book-directonline.com/properties/CLAYTONMMIDIRECT?locale=en&amp;items[0][adults]=2&amp;items[0][children]=0&amp;items[0][infants]=0&amp;currency=AUD&amp;checkInDate=2024-05-25&amp;checkOutDate=2024-05-26&amp;trackPage=yes" class="cs-button-solid cs-nav-button cs-topper">Book Now</a>
+            <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+            <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+                <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+            </button> -->
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-1785">
+        <div class="cs-container">
+            <div class="cs-content">
+                <h1 class="cs-title">WELCOME TO OUR HOTEL</h1>
+            </div>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="images/homepagetop.webp">
+            <source media="(min-width: 601px)" srcset="images/homepagetop.webp">
+            <img loading="lazy" decoding="async" src="images/homepagetop.webp" alt="background image" width="100%" height="100%" aria-hidden="true">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--            Side By Side Reverse              -->
+    <!-- ============================================ -->
+
+    <section id="sbsr-92">
+        <div class="cs-container">
+            <!-- Left Image Section -->
+            <picture class="cs-picture">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qTSFb8e2--w?si=T7TcYZDOcwZNGrmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+                <div class="cs-video-description cs-text">This video gives an overview of Clayton Monash Motor Inn &amp; Serviced Apartments.</div>
+            </picture>
+            <!-- Right Content Section-->
+            <div class="cs-content">
+                <span class="cs-title">Introduction</span>
+                <p class="cs-text">
+                    Located in the south eastern suburbs of Melbourne, Clayton Monash Motor Inn &amp; Serviced Apartments is conveniently located 500 metres from Monash University and within walking distance to the Monash Medical Centre.
+                </p>
+                <p class="cs-text">
+                    Clayton Monash prides itself on setting new standards, provides our guests with complimentary free parking, in room internet access with wireless high speed connectivity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery-49" class="motel-rooms">
+        <div class="cs-container">
+            <div class="cs-content">
+                <!-- <span class="cs-topper">Our Portfolio</span> -->
+                <h2 class="cs-title">Motel Rooms</h2>
+                <p class="cs-text">
+                    With so many options for accommodation, we can ensure that we have the ideal room for your needs, from family-friendly kitchenette twin rooms to budget-friendly options for people who want to save money with no sacrifice on quality.
+                </p>
+            </div>
+            <ul class="cs-image-group">
+                <li>
+            <div class="cs-gallery">
+                <!-- ============================================ -->
+                <!--                  Gallery                     -->
+                <!-- ============================================ -->
+
+                <div id="gallery-565">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="images/room1.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="images/room1.webp">
+                        <img loading="lazy" decoding="async" src="images/room1.webp" alt="room type one" width="480" height="549">
+                        <div class="cs-label">Standard Queen</div>
+                    </picture>
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="images/room2.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="images/room2.webp">
+                        <img loading="lazy" decoding="async" src="images/room2.webp" alt="room type two" width="480" height="549">
+                        <div class="cs-label">Kitchenette Queen Room</div>
+                    </picture>
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="images/room3.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="images/room3.webp">
+                        <img loading="lazy" decoding="async" src="images/room3.webp" alt="room type three" width="480" height="549">
+                        <div class="cs-label">Kitchenette Twin Room</div>
+                    </picture>
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="images/room4.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="images/room4.webp">
+                        <img loading="lazy" decoding="async" src="images/room4.webp" alt="room type four" width="480" height="549">
+                        <div class="cs-label">Budget Room with Kitchenette</div>
+                    </picture>
+                </div>
+            </div>
+        </li>
+        </ul>
+            <a href="" class="cs-button-solid">Explore All Rooms</a>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery-49" class="whats-nearby">
+        <div class="cs-container">
+            <div class="cs-content">
+                <!-- <span class="cs-topper">Our Portfolio</span> -->
+                <h2 class="cs-title">What's Nearby</h2>
+                <p class="cs-text">
+                    Our accommodation are conveniently located 20 min from Melbourne CBD, with easy access to transportation, offering direct routes to the city and Chadstone Shopping Centre. For travellers arriving or departing by plane, our airport shuttle bus service provides convenient pick up and drop off.
+                </p>
+                <br>
+                <p class="cs-text">
+                    Easy access to the Eastlink freeway ensures effortless connectivity to the eastern and southern suburbs.   Just a short drive from the accommodation to Sandown Park Raceway, Huntingdale and Sand Belt golf courses.
+                </p>
+            </div>
+            <ul class="cs-image-group">
+                <li>
+                    <div class="cs-gallery">
+                        <!-- ============================================ -->
+                        <!--                  Gallery                     -->
+                        <!-- ============================================ -->
+
+                        <div id="gallery-565">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="images/chadstone.webp">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="images/chadstone.webp">
+                                <img loading="lazy" decoding="async" src="images/chadstone.webp" alt="chadstone shopping mall" width="480" height="549">
+                                <div class="cs-label">Chadstone Shopping Centre</div>
+                            </picture>
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="images/hospital.webp">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="images/hospital.webp">
+                                <img loading="lazy" decoding="async" src="images/hospital.webp" alt="monash medical centre" width="480" height="549">
+                                <div class="cs-label">Monash Medical Centre</div>
+                            </picture>
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="images/huntingdale.webp">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="images/huntingdale.webp">
+                                <img loading="lazy" decoding="async" src="images/huntingdale.webp" alt="huntingdale golf club" width="480" height="549">
+                                <div class="cs-label">Huntingdale Golf Club</div>
+                            </picture>
+                            
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="images/monash.webp">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="images/monash.webp">
+                                <img loading="lazy" decoding="async" src="images/monash.webp" alt="Monash University" width="480" height="549">
+                                <div class="cs-label">Monash University Clayton Campus</div>
+                            </picture>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">Explore More</a>
+        </div>
+    </section> 
+
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery-49" class="location">
+        <div class="cs-container">
+            <div class="cs-content">
+                <!-- <span class="cs-topper">Our Portfolio</span> -->
+                <h2 class="cs-title">Location</h2>
+            </div>
+                <picture class="cs-background">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100722.10378687242!2d144.97840959726565!3d-37.91721179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66ad19527a951%3A0x31462072450549ad!2sClayton-Monash%20Motor%20Inn%20%26%20Serviced%20Apartments!5e0!3m2!1sen!2sau!4v1716269571793!5m2!1sen!2sau" width="700" height="650" title="Google Map Location" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="cs-map-description cs-text">Adjust this map view the location</div>
+                </picture>
+            <a href="https://maps.app.goo.gl/j1UdXyPT9ogZdQrPA" class="cs-button-solid">View Details</a>
+        </div>
+    </section> 
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-412">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Also book our sister property</span>
+                <h2 class="cs-title">Accommodation Conferences Weddings and Functions</h2>
+                <p class="cs-text">
+                    Located 6.5 kilometers from Clayton Monash
+                </p>
+                <a href="https://sandownregency.com.au" class="cs-button-solid" target="_blank" rel="noopener">Explore More</a>
+            </div>
+            <div class="cs-image-group">
+                <!--Top Left Image-->
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="images/adv1.webp">
+                    <source media="(min-width: 601px)" srcset="images/adv1.webp">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/adv1.webp" alt="advertising picture 1" width="229" height="352">
+                </picture>
+                <!--Top Right Image-->
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="images/adv2.webp">
+                    <source media="(min-width: 601px)" srcset="images/adv2.webp">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/adv2.webp" alt="advertising picture 2" width="390" height="352">
+                </picture>
+                <!--Bottom Image-->
+                <picture class="cs-picture cs-picture3">
+                    <source media="(max-width: 600px)" srcset="images/adv3.webp">
+                    <source media="(min-width: 601px)" srcset="images/adv3.webp">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/adv3.webp" alt="advertising picture 3" width="649" height="227">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ============================================ -->    
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-308">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/logo.png" alt="logo" width="378" height="232">
+            </a>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Sitemap</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="index.html">Home</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Motel Room</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">What's Nearby</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Contact Us</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-nav-li">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/icons8-phone-50.png" alt="phone" width="24" height="24">
+                <a class="cs-nav-link cs-phone" href="tel: +61 (03) 9544 0911">+61 (03) 9544 0911</a>
+            </li>
+            <li class="cs-nav-li">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/icons8-mail-48.png" alt="email" width="24" height="24">
+                <a class="cs-nav-link cs-email" href="mailto:info@claytonmonashmotorinn.com.au">info@claytonmonashmotorinn.com.au</a>
+            </li>
+            <li class="cs-nav-li">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/icons8-location-50.png" alt="pin" width="24" height="24">
+                <a class="cs-nav-link cs-address" href="" target="_blank" rel="noopener">
+                    1790 Princes Hwy, Clayton VIC 3168
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-copyright">© Copyright 2024 - <a class="cs-copyright-link" href="">All Rights Reserved Clayton Monash Accommodation</a></span>
+    </div>
+</footer>
+<!-- Back to Top Button -->
+<button id="back-to-top" class="back-to-top">Back to Top</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
